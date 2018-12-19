@@ -238,7 +238,7 @@
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">项目简介</div>
-              <div class="re-detail">该项目是一个支持多级架构（省、市、区、校）的选科系统，包括选科/选师活动的创建、选科/选师结果的统计分析、历届选科活动的对比分析、选科结果的批量导入/导出等功能</div>
+              <div class="re-detail">该项目是一个支持多级架构的选科系统，包括规则创建、活动创建、结果分析等多个功能</div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">责任描述</div>
@@ -251,13 +251,7 @@
               <div class="re-detail">
                 <p>① 角色多达11种，且均存在角色交叉的可能，对页面的逻辑梳理具有较高的要求，需在每个功能点对角色进行细化，减少冗余代码，方便后续维护</p>
                 <p>② 交互体验：学生端展示所有学科时，采用的是类似于扑克牌翻转的交互，并且若有固定组合不可选时，实时将该学科置灰，提升用户的交互体验</p>
-                <p>③ 页面重构：统计分析页面每个tab内容过多，需将页面拆分为多个子组件，并将公用实例作为mixin提取出来，对各组件之间的通信用最优的方式处理</p>
-              </div>
-            </div>
-            <div class="clearfix">
-              <div class="re-gray-btn fl">项目成果</div>
-              <div class="re-detail">
-                <p>该项目已被多所初、高中上线使用，反馈良好</p>
+                <p>③ 页面重构：统计分析页面每个 tab 内容过多，需将页面拆分为多个子组件，将公用实例作为 mixin 提取出来，对各组件之间的通信采用最优的方式处理</p>
               </div>
             </div>
           </div>
@@ -268,20 +262,19 @@
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">项目简介</div>
-              <div class="re-detail">该项目由管理员创建问卷，发布评教活动，学生和家长完成对各类教师的评价，并在管理员端和教师端展示对评价结果各个维度的分析对比报告</div>
+              <div class="re-detail">该项目具备创建问卷、发布活动、问卷填写、结果分析等多个功能 </div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">责任描述</div>
               <div class="re-detail">
                 <p>承担该项目全部页面的交互优化和功能完善，并首次在 jsp 和 js 页面中使用 vue + element</p>
-                <p>指导后台使用 vue 语法进行功能点完善，并协助后台进行相关bug的定位和修复</p>
               </div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">重点难点</div>
               <div class="re-detail">
-                <p>① 在 jsp 页面中，加入各个子组件的使用，为实现 vue 组件按需加载，封装了 vue-loader 方法，并被组内采纳使用于其他所需项目</p>
-                <p>② 将该项目中所用到的表单生成工具 form-marker 封装为公共组件，并提供对该组件多种使用方式，供有需求的项目使用，并负责该组件的后期维护</p>
+                <p>① 在 jsp 页面中，加入各个子组件的使用，为实现 vue 组件按需加载，封装了 vue-loader 方法，被组内采纳并应用于其他所需项目</p>
+                <p>② 将该项目中所用到的表单生成工具 form-marker 封装为公共组件，提供对该组件多种使用方式，供有需求的项目使用，并负责该组件的后期维护</p>
                 <p>③ 对于下载较大压缩包时，用 ajax 实现按钮的 loading 状态，对获取到的二进制流文件进行转码，并考虑 IE 的兼容性问题</p>
               </div>
             </div>
@@ -299,23 +292,17 @@
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">项目简介</div>
-              <div class="re-detail">在算法和大数据的技术支持下，实现多个学校、多个班级的无冲突、更高效的课程、课时安排，实现更高效率、更为合理的教学方式，达到因材施教的目的</div>
+              <div class="re-detail">在算法和大数据的技术支持下，实现多学校、多班级的无冲突、更高效的课程、课时安排</div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">责任描述</div>
-              <div class="re-detail">负责该项目的分层班、行政班中，教师、教室、学生、课程、课时等基本信息的录入，以及规则设置部分的全部功能。在该项目中使用 iView 组件库</div>
+              <div class="re-detail">负责该项目的分层班、行政班中，教师、教室、学生、课程、课时等基本信息的录入，以及规则设置部分的全部功能，在该项目中使用 iView 组件库</div>
             </div>
             <div class="clearfix">
               <div class="re-gray-btn fl">重点难点</div>
               <div class="re-detail">
-                <p>① 项目中涉及各种可编辑的表格</p>
-                <p>② 重点难点重点难点重点难点重点难点重点难点重点难点重点难点重点难点重点难点重点难点重点难点重点</p>
-              </div>
-            </div>
-            <div class="clearfix">
-              <div class="re-gray-btn fl">项目成果</div>
-              <div class="re-detail">
-                <a href="javascript:void(0);">111111</a>
+                <p>① 针对项目中涉及各种可编辑的复杂表格，将其封装为子组件，供各个页面使用</p>
+                <p>② 规则设置页面内容较多，对页面进行优化，实现页面的懒加载</p>
               </div>
             </div>
           </div>
@@ -333,9 +320,8 @@
               <div class="fl">西安电子科技大学</div>
               <div class="re-date fr">2015 - 2017</div>
             </div>
-            <p>SCI期刊论文：Strongly Unforgeable and Efficient Proxy Signature Scheme with Fast Revocation Securein the Standard Model</p>
-            <p>专利：一种可显式验证公钥的多接收者签密方法</p>
-            <p>专利：基于椭圆曲线的无密钥托管问题的多接收者签密方法</p>
+            <p>2 篇 SCI, 3 项专利</p>
+            <p>在校期间，两次获得一等学金</p>
           </div>
         </div>
       </div>
