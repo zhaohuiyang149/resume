@@ -87,6 +87,10 @@ body {
 .re-icon-place {
   background-position: -51px -24px;
 }
+.re-icons.re-icon-year {
+  background: #fff url('../img/icon-year.png') no-repeat center;
+  background-size: 22px 22px;
+}
 .re-icon-major {
   transform: scale(1.3);
   background-position: 5px -28px;
@@ -203,69 +207,76 @@ body {
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
 }
+.re-left .progress-html .progress-bar {
+  width: 90%;
+  background-color: #86e01e;
+  animation: html-move 1.5s;
+  -webkit-animation: html-move 1.5s;
+}
 .re-left .progress-css .progress-bar {
   width: 90%;
   background-color: #86e01e;
   animation: css-move 1.5s;
   -webkit-animation: css-move 1.5s;
 }
-.re-left .progress-html .progress-bar {
-  width: 87%;
-  background-color: #f2d31b;
-  animation: html-move 1.5s;
-  -webkit-animation: html-move 1.5s;
+.re-left .progress-less .progress-bar {
+  width: 90%;
+  background-color: #86e01e;
+  animation: less-move 1.5s;
+  -webkit-animation: less-move 1.5s;
 }
+/* 86e01e(90%) f2d31b(85%) f2b01e(80%) f76f1f(75%) f27011(70) f63a0f(65) */
 .re-left .progress-js .progress-bar {
-  width: 80%;
+  width: 85%;
   background-color: #f2d31b;
   animation: js-move 1.5s;
   -webkit-animation: js-move 1.5s;
 }
 .re-left .progress-vue .progress-bar {
-  width: 80%;
-  background-color: #f2b01e;
+  width: 87%;
+  background-color: #f2d31b;
   animation: vue-move 1.5s;
   -webkit-animation: vue-move 1.5s;
 }
-.re-left .progress-jquery .progress-bar {
-  width: 75%;
-  background-color: #f76f1f;
+.re-left .progress-es6 .progress-bar {
+  width: 80%;
+  background-color: #f2b01e;
   animation: jquery-move 1.5s;
   -webkit-animation: jquery-move 1.5s;
 }
-.re-left .progress-less .progress-bar {
-  width: 70%;
-  background-color: #f27011;
-  animation: less-move 1.5s;
-  -webkit-animation: less-move 1.5s;
+.re-left .progress-axios .progress-bar {
+  width: 83%;
+  background-color: #f2b01e;
+  animation: jquery-move 1.5s;
+  -webkit-animation: jquery-move 1.5s;
 }
 .re-left .progress-git .progress-bar {
-  width: 78%;
+  width: 83%;
   background-color: #f2b01e;
   animation: git-move 1.5s;
   -webkit-animation: git-move 1.5s;
 }
-.re-left .progress-ps .progress-bar {
-  width: 68%;
+.re-left .progress-webpack .progress-bar {
+  width: 70%;
   background-color: #f27011;
   animation: ps-move 1.5s;
   -webkit-animation: ps-move 1.5s;
 }
-.re-left .progress-webpack .progress-bar {
-  width: 55%;
-  background-color: #f63a0f;
+.re-left .progress-charles .progress-bar {
+  width: 75%;
+  background-color: #f76f1f;
   animation: webpack-move 1.5s;
   -webkit-animation: webpack-move 1.5s;
 }
 .re-left .progress-ele .progress-bar {
-  width: 85%;
-  background-color: #f2d31b;
+  width: 90%;
+  background-color: #86e01e;
   animation: ele-move 1.5s;
   -webkit-animation: ele-move 1.5s;
 }
-.re-left .progress-iview .progress-bar {
-  width: 75%;
-  background-color: #f2b01e;
+.re-left .progress-http .progress-bar {
+  width: 65%;
+  background-color: #f63a0f;
   animation: iview-move 1.5s;
   -webkit-animation: iview-move 1.5s;
 }
@@ -312,9 +323,15 @@ body {
   font-size: 20px;
 }
 .re-l-box .re-content {
-  padding: 10px 0;
+  padding: 10px 0 16px;
   font-size: 16px;
   line-height: 26px;
+}
+.re-l-box .re-content.re-content-ul {
+  padding-left: 16px;
+}
+.re-l-box .re-content li {
+  list-style-type: disc;
 }
 .re-right {
   display: table-cell;
@@ -372,6 +389,7 @@ body {
 }
 .re-r-box .re-content .re-date {
   font-size: 15px;
+  font-weight: normal;
 }
 .re-r-box .re-detail {
   overflow: hidden;
