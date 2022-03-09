@@ -335,7 +335,7 @@ body {
 }
 .re-right {
   display: table-cell;
-  padding: 8px 20px;
+  padding: 2px 20px 2px;
   width: 810px;
   background: #fff;
   vertical-align: top;
@@ -358,7 +358,10 @@ body {
   line-height: 28px;
 }
 .re-r-box .re-content .re-block {
-  padding-bottom: 8px;
+  padding-bottom: 6px;
+}
+.re-r-box .re-content .re-block.re-block-bottom {
+  padding-bottom: 0;
 }
 .re-r-box .re-content .re-header {
   position: relative;
