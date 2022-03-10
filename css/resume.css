@@ -207,13 +207,13 @@ body {
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
 }
-.re-left .progress-html .progress-bar {
-  width: 90%;
+.re-left .progress-95 .progress-bar {
+  width: 95%;
   background-color: #86e01e;
   animation: html-move 1.5s;
   -webkit-animation: html-move 1.5s;
 }
-.re-left .progress-css .progress-bar {
+.re-left .progress-90 .progress-bar {
   width: 90%;
   background-color: #86e01e;
   animation: css-move 1.5s;
@@ -226,55 +226,43 @@ body {
   -webkit-animation: less-move 1.5s;
 }
 /* 86e01e(90%) f2d31b(85%) f2b01e(80%) f76f1f(75%) f27011(70) f63a0f(65) */
-.re-left .progress-js .progress-bar {
+.re-left .progress-85 .progress-bar {
   width: 85%;
   background-color: #f2d31b;
   animation: js-move 1.5s;
   -webkit-animation: js-move 1.5s;
 }
-.re-left .progress-vue .progress-bar {
+.re-left .progress-87 .progress-bar {
   width: 87%;
   background-color: #f2d31b;
   animation: vue-move 1.5s;
   -webkit-animation: vue-move 1.5s;
 }
-.re-left .progress-es6 .progress-bar {
+.re-left .progress-80 .progress-bar {
   width: 80%;
   background-color: #f2b01e;
   animation: jquery-move 1.5s;
   -webkit-animation: jquery-move 1.5s;
 }
-.re-left .progress-axios .progress-bar {
+.re-left .progress-83 .progress-bar {
   width: 83%;
   background-color: #f2b01e;
   animation: jquery-move 1.5s;
   -webkit-animation: jquery-move 1.5s;
 }
-.re-left .progress-git .progress-bar {
-  width: 83%;
-  background-color: #f2b01e;
-  animation: git-move 1.5s;
-  -webkit-animation: git-move 1.5s;
-}
-.re-left .progress-webpack .progress-bar {
+.re-left .progress-70 .progress-bar {
   width: 70%;
   background-color: #f27011;
   animation: ps-move 1.5s;
   -webkit-animation: ps-move 1.5s;
 }
-.re-left .progress-charles .progress-bar {
+.re-left .progress-75 .progress-bar {
   width: 75%;
   background-color: #f76f1f;
   animation: webpack-move 1.5s;
   -webkit-animation: webpack-move 1.5s;
 }
-.re-left .progress-ele .progress-bar {
-  width: 90%;
-  background-color: #86e01e;
-  animation: ele-move 1.5s;
-  -webkit-animation: ele-move 1.5s;
-}
-.re-left .progress-http .progress-bar {
+.re-left .progress-65 .progress-bar {
   width: 65%;
   background-color: #f63a0f;
   animation: iview-move 1.5s;
